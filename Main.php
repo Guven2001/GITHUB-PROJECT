@@ -71,7 +71,7 @@
           <a href="#" class="logo">
             <img src="./assets/images/imagenew.png" width="200" height="110" alt="UOV-MIH">
           </a>
-
+<br>
           <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
             <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
           </button>
