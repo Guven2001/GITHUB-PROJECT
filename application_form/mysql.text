@@ -1,0 +1,16 @@
+-- Create the database
+CREATE DATABASE IF NOT EXISTS appointments;
+
+-- Select the database
+USE appointments;
+
+-- Create the table for storing appointment details
+CREATE TABLE IF NOT EXISTS appointment_details (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  registration_number VARCHAR(50) NOT NULL,
+  full_name VARCHAR(100) NOT NULL,
+  mobile_number VARCHAR(15) NOT NULL,
+  email_id VARCHAR(100) NOT NULL,
+  appointment_date DATE NOT NULL,
+  already_registered BOOLEAN DEFAULT FALSE
+);
