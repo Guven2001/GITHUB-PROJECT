@@ -1,8 +1,6 @@
 -- Create the database
-CREATE DATABASE IF NOT EXISTS appointments;
-
--- Select the database
-USE appointments;
+CREATE DATABASE IF NOT EXISTS medicare;
+USE medicare;
 
 -- Create the table for storing appointment details
 CREATE TABLE IF NOT EXISTS appointment_details (
@@ -11,6 +9,10 @@ CREATE TABLE IF NOT EXISTS appointment_details (
   full_name VARCHAR(100) NOT NULL,
   mobile_number VARCHAR(15) NOT NULL,
   email_id VARCHAR(100) NOT NULL,
-  appointment_date DATE NOT NULL,
-  already_registered BOOLEAN DEFAULT FALSE
+  appointment_date DATE NOT NULL
 );
+
+SELECT * FROM appointment_details;
+
+PARTH TO RUN
+/application_form/application.php
