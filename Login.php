@@ -30,7 +30,6 @@
             <div class="form-group">
                 <button type="submit">Login</button>
             </div>
-            <p class="register-link">Don't have an account? <a href="/register">Register here</a></p>
         </form>
     </div>
 </body>

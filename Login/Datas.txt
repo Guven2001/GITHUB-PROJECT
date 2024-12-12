@@ -1,0 +1,16 @@
+create database medicare
+
+use medicare;
+
+CREATE TABLE admins (
+    ->     id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     username VARCHAR(100) NOT NULL,
+    ->     password VARCHAR(100) NOT NULL,
+    ->     position VARCHAR(100) NOT NULL
+    -> );
+
+    insert into admins(username, password, position)values
+     ('Davidarora','david1967','Eye Specialist'),
+     ('MartinHonter','martin1987','Psychiatry'),
+     ('JohnHenarus','johnhen1305','Pulmonology');
+     
